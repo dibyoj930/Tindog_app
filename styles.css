@@ -1,0 +1,121 @@
+body{
+  font-style: "Monserrat";
+}
+#title{
+  background-color: #FF0063;
+}
+.container-fluid{
+  padding:3% 15% 3% 15%;
+}
+h1{
+font-family: 'Mouse Memoirs', sans-serif;
+color:white;
+font-size: 4.5rem;
+line-height: 1.5;
+}
+h2{
+  font-family: 'Monserrat bold';
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+h3{
+  font-family: 'Monserrat bold';
+  font-size: 1.5rem;
+}
+.navbar{
+  padding-bottom:4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-style: "Ubuntu";
+  font-weight: bold;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+
+}
+.nav-item{
+  font-size: 1.5rem;
+  font-style: "Monserrat";
+}
+#features{
+
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.im{
+  width: 40%;
+  border-radius: 40%;
+
+}
+@media (max-width:1028px) {
+  .title-img{
+    position: static;/*used for making the position static so that normal visible when screensize is <=1028px*/
+  }
+}
+#testimonials{
+  padding: 7% 15%;
+ text-align: center;
+  background-color: #ff4c68;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.press-logo{
+  width: 10%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.chi{
+  font-weight: bold;
+}
+.cat{
+  background-color: #ff4c68;
+  width: 100%;
+  text-align: center;
+
+
+}
+#footer{
+  text-align: center;
+}
+p{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+.social{
+  margin: 20px 15px;
+
+}
